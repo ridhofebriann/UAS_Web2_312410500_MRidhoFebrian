@@ -6,6 +6,24 @@ Dikembangkan oleh: **M. Ridho Febrian**
 
 ---
 
+## 📖 Penjelasan Sistem (Tentang Aplikasi)
+
+**E-Inventory System** adalah aplikasi berbasis web yang dirancang untuk mendigitalisasi proses pendataan dan pelacakan barang di dalam gudang. Aplikasi ini memisahkan secara tegas antara hak akses publik (pengunjung umum) dan hak akses administrator (pengelola gudang). 
+
+Dengan mengusung arsitektur **Single Page Application (SPA)**, sistem ini beroperasi sangat cepat tanpa perlu memuat ulang halaman (*no hard-reload*) setiap kali berpindah menu, memberikan pengalaman pengguna (*User Experience*) yang mulus layaknya aplikasi *desktop*.
+
+### ✨ Fitur Utama Aplikasi
+1. **Public Dashboard (Mode Pengunjung):** Pengunjung dapat melihat secara *real-time* statistik total barang, kategori, supplier, serta memantau 5 barang terbaru yang masuk ke gudang tanpa bisa mengubah data.
+2. **Secure Admin Panel:** Sistem dilindungi oleh *Bearer Token* dan *Axios Interceptors*. Jika sesi habis atau pengguna mencoba memaksa masuk tanpa *login*, sistem akan otomatis menendang pengguna kembali ke halaman *login*.
+3. **Manajemen Data Master (CRUD):**
+   *   **Kelola Kategori:** Mengelompokkan barang berdasarkan jenisnya (contoh: Elektronik, Makanan, dll).
+   *   **Kelola Supplier:** Mencatat data pemasok barang lengkap dengan kontak dan alamat.
+   *   **Kelola Barang:** Pencatatan inti inventori yang mencakup harga, stok riil, serta relasi langsung dengan Kategori dan Supplier.
+4. **Notifikasi Interaktif (SweetAlert2):** Setiap aksi (simpan, hapus, *error*) memberikan respon visual yang memanjakan mata dan jelas.
+5. **Tema Neubrutalism:** Antarmuka (*User Interface*) didesain unik dengan warna-warna solid, garis tepi (*border*) tebal yang kontras, serta bayangan asimetris yang tegas, menghadirkan nuansa desain yang sangat modern dan *anti-mainstream*.
+
+---
+
 ## 📸 Dokumentasi Visual Aplikasi
 
 *(Ganti teks placeholder di bawah ini dengan gambar screenshot yang relevan)*
