@@ -1,0 +1,28 @@
+# Backend files
+/backend-api/vendor/
+/backend-api/.env
+/backend-api/.env.local
+/backend-api/writable/
+/backend-api/node_modules/
+
+# Node modules
+node_modules/
+npm-debug.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+*.o
+*.a
+*.so

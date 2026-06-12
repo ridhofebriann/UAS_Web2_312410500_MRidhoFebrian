@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Inventory System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1f2937",
+              accent: "#fbbf24",
+              accentDark: "#f59e0b",
+              surface: "#ffffff",
+              surfaceDark: "#f3f4f6",
+              border: "#111827",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family:
+          Inter,
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background: #f3f4f6;
+      }
+
+      .card-neo {
+        background: #ffffff;
+        border: 3px solid #111827;
+        box-shadow: 8px 8px 0 rgba(17, 24, 39, 0.15);
+      }
+
+      .btn-neo {
+        border: 3px solid #111827;
+        background: #111827;
+        color: #ffffff;
+        box-shadow: 5px 5px 0 rgba(17, 24, 39, 0.25);
+      }
+
+      .btn-neo:hover {
+        transform: translateY(-1px);
+      }
+
+      .input-neo {
+        border: 3px solid #111827;
+        box-shadow: 4px 4px 0 rgba(17, 24, 39, 0.08);
+        background: #ffffff;
+      }
+
+      .hero-border {
+        border: 4px dashed #111827;
+      }
+
+      /* Custom SweetAlert2 Neubrutalism */
+      .swal2-popup.swal2-neo {
+        border: 4px solid #111827 !important;
+        border-radius: 0 !important;
+        box-shadow: 8px 8px 0 rgba(17, 24, 39, 1) !important;
+      }
+      .swal2-confirm.swal2-neo-confirm {
+        border: 3px solid #111827 !important;
+        border-radius: 0 !important;
+        background: #111827 !important;
+        color: #ffffff !important;
+        box-shadow: 4px 4px 0 rgba(17, 24, 39, 1) !important;
+        font-weight: 900 !important;
+      }
+      .swal2-cancel.swal2-neo-cancel {
+        border: 3px solid #111827 !important;
+        border-radius: 0 !important;
+        background: #FF5757 !important;
+        color: #ffffff !important;
+        box-shadow: 4px 4px 0 rgba(17, 24, 39, 1) !important;
+        font-weight: 900 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script src="https://unpkg.com/vue-router@4/dist/vue-router.global.prod.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/components/HomePage.js?v=1.2"></script>
+    <script src="js/components/LoginPage.js?v=1.2"></script>
+    <script src="js/components/DashboardPage.js?v=1.2"></script>
+    <script src="js/components/KategoriPage.js?v=1.2"></script>
+    <script src="js/components/SupplierPage.js?v=1.2"></script>
+    <script src="js/components/BarangPage.js?v=1.2"></script>
+    <script src="js/app.js?v=1.2"></script>
+  </body>
+</html>
