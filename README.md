@@ -29,20 +29,26 @@ Dengan mengusung arsitektur **Single Page Application (SPA)**, sistem ini berope
 *(Ganti teks placeholder di bawah ini dengan gambar screenshot yang relevan)*
 
 ### 1. Skema Relasi Database
-![Skema Database](link_gambar_screenshot_phpmyadmin_disini)
+![Skema Database](https://github.com/ridhofebriann/UAS_Web2_312410500_MRidhoFebrian/blob/main/relasi%20database.png?raw=true)
 > Skema relasi antara tabel `kategori`, `supplier`, dan `barang` yang saling terhubung.
 
 ### 2. Proteksi Keamanan Server (Error 401)
-![Error 401 Postman](link_gambar_screenshot_postman_disini)
+![Error 401 Postman](https://github.com/ridhofebriann/UAS_Web2_312410500_MRidhoFebrian/blob/main/error%20401.png?raw=true)
 > Pengujian penolakan akses manipulasi data via Postman jika tidak melampirkan *Authorization Bearer Token* yang sah.
 
 ### 3. Antarmuka Aplikasi (UI)
 *   **Halaman Login:**
-    ![Halaman Login](link_gambar_screenshot_login_disini)
+    ![Halaman Login](https://github.com/ridhofebriann/UAS_Web2_312410500_MRidhoFebrian/blob/main/login.png?raw=true)
 *   **Halaman Dashboard Admin:**
-    ![Halaman Dashboard](link_gambar_screenshot_dashboard_disini)
+    ![Halaman Dashboard](https://github.com/ridhofebriann/UAS_Web2_312410500_MRidhoFebrian/blob/main/admindashboard.png?raw=true)
 *   **Form Input & Tabel Data (Kelola Barang):**
-    ![Form Kelola Barang](link_gambar_screenshot_barang_disini)
+    ![Form Kelola Barang](https://github.com/ridhofebriann/UAS_Web2_312410500_MRidhoFebrian/blob/main/kelolabarang.png?raw=true)
+
+*   **Form Input & Tabel Data (Kelola kategori):**
+    ![Form Kelola kategori](https://github.com/ridhofebriann/UAS_Web2_312410500_MRidhoFebrian/blob/main/kelolakategori.png?raw=true)
+
+*   **Form Input & Tabel Data (Kelola supplier):**
+    ![Form Kelola supplier](https://github.com/ridhofebriann/UAS_Web2_312410500_MRidhoFebrian/blob/main/kelolasupplier.png?raw=true)
 
 ---
 
