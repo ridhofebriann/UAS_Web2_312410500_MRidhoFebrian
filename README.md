@@ -85,5 +85,5 @@ Proyek ini terbagi menjadi dua bagian (*Frontend* dan *Backend*). Ikuti langkah-
 
 ## 🔗 Tautan Penting
 
-- **Live Demo Aplikasi:** [Masukkan Link Hosting/Vercel/Lainnya di sini]
-- **Video Presentasi:** [Masukkan Link Video YouTube/Google Drive di sini]
+- **Live Demo Aplikasi:** [https://youtu.be/25uBdrJZcXs]
+- **Video Presentasi:** [https://youtu.be/25uBdrJZcXs]
